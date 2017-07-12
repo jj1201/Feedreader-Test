@@ -91,8 +91,7 @@ $(function() {
             loadFeed(0, done);
         });
          it("loadFeed is success", function() {
-            expect($('.feed').length).toBeGreaterThan(0);
-            expect($('.entry').length).toBeGreaterThan(0);
+            expect($('.feed .entry').length).toBeGreaterThan(0);
          });
     });
     /* TODO: Write a new test suite named "New Feed Selection" */
